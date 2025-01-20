@@ -22,7 +22,14 @@ public class Principal {
 		int menuPrincipal, subMenu;
 
 		LogicaMetodos imp = new LogicaMetodos();
-
+		
+		String c = "hola";
+		
+		System.out.println("HOLA MUNDO GITHUB");
+		lectura =  new Scanner(System.in);
+		c = lectura.nextLine();
+		System.out.println("Hola :"+ c);
+		
 		do {
 			System.out.println("MENU PRINCIPA");
 			System.out.println("1--ALTA");
