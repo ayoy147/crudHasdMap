@@ -26,8 +26,6 @@ public class Principal {
 		String c = "hola";
 		
 		System.out.println("HOLA MUNDO GITHUB");
-		lectura =  new Scanner(System.in);
-		c = lectura.nextLine();
 		System.out.println("Hola :"+ c);
 		
 		do {
